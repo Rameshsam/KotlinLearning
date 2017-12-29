@@ -1,0 +1,28 @@
+1.
+
+fun main(args: Array<String>) {
+    println("Hello, world!")
+    
+    var max: Int =20
+    var a:Int =1
+    var b:Int=3
+    if (a > b) {
+    max = a
+          print(max)
+    } else {
+    max = b
+       print(max)
+    }
+}
+
+
+2.Switch
+
+fun main(args: Array<String>) {
+    println("Hello, world!")
+    
+    when (4) {
+    0, 1 -> print("x == 0 or x == 1")
+    else -> print("otherwise")
+}
+}
